@@ -52,9 +52,9 @@ PAGER=`which-command less`
 LESS=`which-command less`
 EDITOR=`which-command nano`
 # alias git to hub
-if [[ -f ~/bin/hub ]]; then
-  eval "$(hub alias -s)"
-fi
+# if [[ -f ~/bin/hub ]]; then
+  # eval "$(hub alias -s)"
+# fi
 
 function TRAPINT {
   # Store the current buffer in the history.
